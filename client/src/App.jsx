@@ -1,13 +1,14 @@
 import React, { Fragment } from 'react';
 import Header from './components/header';
-import './sass/App.scss';
+import Calendar from './components/calendar/calendar'
+import './sass/main.scss';
 
 function App() {
   return (
     <>
       <div className="container">
         <Header />
-        <div></div>
+        <Calendar />
         <footer className="footer">
         </footer>
       </div>

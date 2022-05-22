@@ -1,0 +1,18 @@
+/* CSS Reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; /* box-sizing property not inherited by default; forces inheritance */
+}
+
+html {
+  /* Set root font-size; defines what 1rem is */
+  /* Bad practice to set root to px b/c overrides user's default browser font-size setting */
+  font-size: 62.5%; /* Good practice to use 62.5% of browser default 16px = 10px */
+}
+
+body {
+  box-sizing: border-box; /* borders & padding no longer added to total width or height */
+}
