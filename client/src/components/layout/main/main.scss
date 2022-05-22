@@ -1,7 +1,21 @@
 .main {
-  display: flexbox;
+  display: flex;
   flex-direction: row;
-  border: 2px dashed blue;
+  border: .5px solid red;
   margin: 0px 40px;
   box-shadow: 0 1rem 2rem rgba(black, .2);
+  height: 80vh;
+}
+
+.main-details {
+  border: .5px solid black;
+  flex-grow: 1;
+}
+.main-calendar {
+  border: .5px solid black;
+  flex-grow: 1;
+}
+.main-booking {
+  border: .5px solid black;
+  flex-grow: 1;
 }
