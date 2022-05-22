@@ -33,9 +33,6 @@ app.get('/db', async(req, res) => {
 
 
 
-
-
-
 // Redirect invalid urls to main page
 
 // app.get("*", (req, res) => {
