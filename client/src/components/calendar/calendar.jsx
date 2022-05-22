@@ -1,10 +1,11 @@
-import React, { Fragment } from "react";
+import React from "react";
+import './calendar.scss';
 
 const Calendar = () => {
   return (
-    <>
-      <h2>Calendar</h2>
-    </>
+    <div>
+      <h2>Select a Date & Time</h2>
+    </div>
   );
 }
 

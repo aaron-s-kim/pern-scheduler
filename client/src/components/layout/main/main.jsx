@@ -7,14 +7,14 @@ const Main = () => {
     <div className="main">
       <div className="main-details">
         {/* <Details /> */}
-        <Calendar />
+        {/* <Calendar /> */}
       </div>
       <div className="main-calendar">
         <Calendar />
       </div>
       <div className="main-booking">
         {/* <Booking /> */}
-        <Calendar />
+        {/* <Calendar /> */}
       </div>
     </div>
   );
