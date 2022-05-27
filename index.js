@@ -15,7 +15,10 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "client/build")));
 }
 
+// Console.logs
 console.log(__dirname);
+if (process.env.NODE_ENV) console.log('process.env.NODE_ENV: ', process.env.NODE_ENV);
+
 
 // ROUTES //
 app.get('/db', async(req, res) => {
